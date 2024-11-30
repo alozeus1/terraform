@@ -5,7 +5,7 @@ resource "aws_instance" "terraform-demo" {
   tags = {
     Name = "Jenkins"
     Env  = "dev"
-    Owner = "serge"
+    Owner = "alo"
   }
 }
 
