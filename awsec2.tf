@@ -1,7 +1,7 @@
 resource "aws_instance" "terraform-demo" {
   ami           = "ami-0022f774911c1d690"
   instance_type = "t2.micro"
-  key_name      = "devkey"
+  key_name      = "demo"
   tags = {
     Name = "Jenkins"
     Env  = "dev"
